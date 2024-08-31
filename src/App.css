@@ -1,0 +1,47 @@
+body {
+  background-color: #356975;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+.settings {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+#break-label, #session-label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  background-color: #11363d;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0b252a;
+}
+
+.timer {
+  margin: 20px 0;
+  padding: 20px;
+  border: 2px solid #11363d;
+  border-radius: 10px;
+  width: 200px;
+  margin: 0 auto;
+}
